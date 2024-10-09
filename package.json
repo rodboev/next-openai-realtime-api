@@ -1,0 +1,40 @@
+{
+  "name": "next-openai-realtime-api",
+  "version": "1.0.0",
+  "description": "A Next.js project using the OpenAI Realtime API",
+  "private": false,
+  "author": "Rod Boev <rod@basedin.nyc>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/next-openai-realtime-api.git"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node src/server.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node src/server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@openai/realtime-api-beta": "openai/openai-realtime-api-beta",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "mkcert": "^3.2.0",
+    "next": "14.2.6",
+    "openai": "^4.53.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
